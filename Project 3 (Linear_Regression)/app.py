@@ -42,7 +42,7 @@ st.title("🏡 Luxury House Price AI Dashboard")
 st.caption("Modern premium house value prediction app")
 
 c1,c2,c3=st.columns(3)
-area=c1.slider("Area (sq.ft)",int(df.area.min()),int(df.area.max()),int(df.area.median()),1)
+area = c1.slider("Area (sq.ft)", 1, 10, 5, 1)
 price=float(m.predict(pd.DataFrame({"area": [area]}))[0])c1.metric("Area",f"{area} sq.ft")
 c2.metric("Predicted Price",f"₹ {price:,.0f}")
 c3.metric("R² Score",f"{score:.3f}")
