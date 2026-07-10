@@ -18,7 +18,7 @@ h1{color:white}
 
 @st.cache_data
 def load():
-    for f in ["houseprice.csv","houseprice (2).csv"]:
+    for f in ["houseprice.csv","houseprice.csv"]:
         try:
             return pd.read_csv(f)
         except:
