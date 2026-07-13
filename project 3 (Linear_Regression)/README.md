@@ -1,1 +1,1 @@
-https://linearregression-ez5puhzu4uxrjdujg8zvtm.streamlit.app/
+ ](https://linearregression-mwch5zmgtepkxw569m6hpz.streamlit.app/)
